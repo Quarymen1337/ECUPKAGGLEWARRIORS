@@ -1,1 +1,2 @@
 # ECUPKAGGLEWARRIORS
+Репозитарий для соревнований
