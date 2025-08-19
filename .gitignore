@@ -1,0 +1,110 @@
+cat > .gitignore << 'EOF'
+# Standard .gitignore for data science competitions
+
+# Data files
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.json
+*.xlsx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.data
+*.model
+*.bin
+
+# Competition specific
+input/
+data/
+test/
+train/
+validation/
+external/
+processed/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook - ONLY ignore checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Visualization outputs (comment these out if you want to keep them)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.pdf
+# *.svg
+# *.html
+
+# MLFlow/experiment tracking
+mlruns/
+mlflow/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+EOF
